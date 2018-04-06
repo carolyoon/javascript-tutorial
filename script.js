@@ -112,7 +112,7 @@ switch (job) {
 */
 
 // Lecture: Functions
-
+/*
 function calculateAge(yearOfBirth) {
   var age = 2016 - yearOfBirth;
   return age;
@@ -134,8 +134,20 @@ function yearsUntilRetirement(name, year) {
 }
 
 yearsUntilRetirement('John', 1940);
+*/
 
+// Lecture: Statements and Expressions
+/*
+Statement => performs an action but doesn't store any immediate values 
+function someFun(par) {
+  // code
+}
 
+Expressions => produces a value or outcome
+var someFun = function(par) {
+  // code
+}
+*/
 
 
 
