@@ -22,3 +22,53 @@ if (johnScore > friendScore && johnScore > carolScore) {
 }
 */
 
+// CODING CHALLENGE 2
+ var birthYears = [1988, 1967, 2010, 1999]
+ var ages = []
+
+// for (var i = 0; i < birthYears.length; i++) {
+//   ages[i] = 2018 - birthYears[i]
+// }
+
+// for (var i = 0; i < ages.length; i++) {
+//   if (ages[i] >= 18) {
+//     console.log("This person is " + ages[i] + " years old and is of full age.");
+//   } else {
+//     console.log("This person is " + ages[i] + " years old and is not of full age.");
+//   }
+// }
+
+
+function printFullAge(birthYears) {
+  var ages = []
+  var fullAges = []
+
+  for (var i = 0; i < birthYears.length; i++) {
+    ages[i] = 2018 - birthYears[i]
+  }
+
+  for (var i = 0; i < ages.length; i++) {
+    if (ages[i] >= 18) {
+      console.log("Person " + (i + 1) + " is " + ages[i] + " years old and is of full age.");
+      fullAges.push(true)
+    } else {
+      console.log("Person " + (i + 1) + " is" + ages[i] + " years old and is not of full age.");
+      fullAges.push(false)
+    }
+  }
+  return fullAges;
+}
+
+var full_1 = printFullAge(birthYears);
+var full_2 = printFullAge([2012, 1915, 1999]);
+
+
+
+
+
+
+
+
+
+
+

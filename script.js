@@ -240,28 +240,28 @@ console.log(john.age)
 */
 
 // Lecture: Loops & Iteration
-
+/*
 // "for" loops
-// for (var i = 0; i < 10; i++) {
-//   console.log(i);
-// }
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
 
-// var names = ['John', 'Jane', 'Mark', 'Mary', 'Bob'];
+var names = ['John', 'Jane', 'Mark', 'Mary', 'Bob'];
 
-// for (var i = 0 ; i < names.length; i++) {
-//   console.log(names[i]);
-// }
+for (var i = 0 ; i < names.length; i++) {
+  console.log(names[i]);
+}
 
-// for (var i = names.length - 1; i >= 0; i--) {
-//   console.log(names[i]);
-// }
+for (var i = names.length - 1; i >= 0; i--) {
+  console.log(names[i]);
+}
 
 // "while" loops 
-// var i = 0;
-// while (i < names.length){
-//   console.log(names[i]);
-//   i++;
-// }
+var i = 0;
+while (i < names.length){
+  console.log(names[i]);
+  i++;
+}
 
 // "break"
 for (var i = 1; i <= 5; i++) {
@@ -279,6 +279,7 @@ for (var i = 1; i <= 5; i++) {
   }
   console.log(i);
 }
+*/
 
 
 
