@@ -182,6 +182,7 @@ var john = {
   job: 'teacher',
   isMarried: false
 };
+
 // How to read values out of an object
 console.log(john.lastName);
 console.log(john['lastName']);
@@ -205,7 +206,7 @@ console.log(jane)
 */
 
 // Lecture: Objects & Methods 
-
+/*
 var john = {
   name: 'John',
   lastName: 'Smith',
@@ -236,4 +237,56 @@ var john = {
 john.calculateAge();
 console.log(john);
 console.log(john.age)
+*/
+
+// Lecture: Loops & Iteration
+
+// "for" loops
+// for (var i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+
+// var names = ['John', 'Jane', 'Mark', 'Mary', 'Bob'];
+
+// for (var i = 0 ; i < names.length; i++) {
+//   console.log(names[i]);
+// }
+
+// for (var i = names.length - 1; i >= 0; i--) {
+//   console.log(names[i]);
+// }
+
+// "while" loops 
+// var i = 0;
+// while (i < names.length){
+//   console.log(names[i]);
+//   i++;
+// }
+
+// "break"
+for (var i = 1; i <= 5; i++) {
+  console.log(i);
+
+  if (i === 3) {
+    break;
+  }
+}
+
+// "continue" 
+for (var i = 1; i <= 5; i++) {
+ if (i === 3) {
+    continue;
+  }
+  console.log(i);
+}
+
+
+
+
+
+
+
+
+
+
 
