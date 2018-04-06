@@ -123,6 +123,17 @@ var ageMike = calculateAge(1969);
 var ageMary = calculateAge(1988);
 console.log(ageMike);
 
+function yearsUntilRetirement(name, year) {
+  var age = calculateAge(year);
+  var retirement = 65 - age;
+  if (retirement >= 0) {
+    console.log(name + ' retires in ' + retirement + ' years. ');  
+  } else {
+    console.log(name + ' is already retired. ');
+  }
+}
+
+yearsUntilRetirement('John', 1940);
 
 
 
