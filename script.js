@@ -136,7 +136,7 @@ function yearsUntilRetirement(name, year) {
 yearsUntilRetirement('John', 1940);
 */
 
-// Lecture: Statements and Expressions
+// Lecture: Statements vs Expressions
 /*
 Statement => performs an action but doesn't store any immediate values 
 function someFun(par) {
@@ -173,10 +173,8 @@ if (john.indexOf('teacher') === -1) {
 }
 */
 
-// Lecture: Objects
-
-// Object Literal:
-
+// Lecture: Object Literal 
+/*
 var john = {
   name: 'John',
   lastName: 'Smith',
@@ -204,13 +202,38 @@ jane['job'] = 'retired'
 jane['isMarried'] = true 
 
 console.log(jane)
+*/
 
+// Lecture: Objects & Methods 
 
+var john = {
+  name: 'John',
+  lastName: 'Smith',
+  yearOfBirth: '1990',
+  job: 'teacher',
+  isMarried: false,
+  family: ['Jane', 'Mark', 'Bob'],
+  calculateAge: function() {
+    return 2016 - this.yearOfBirth;
+  }
+};
+  
+var age = john.calculateAge();
+john.age = age;
 
+var john = {
+  name: 'John',
+  lastName: 'Smith',
+  yearOfBirth: '1990',
+  job: 'teacher',
+  isMarried: false,
+  family: ['Jane', 'Mark', 'Bob'],
+  calculateAge: function() {
+    this.age = 2016 - this.yearOfBirth;
+  }
+};
 
-
-
-
-
-
+john.calculateAge();
+console.log(john);
+console.log(john.age)
 
