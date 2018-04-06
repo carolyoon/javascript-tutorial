@@ -80,14 +80,48 @@ if(isMarried) {
 }
 */
 
-// Lecture:
+// Lecture: Boolean Logic and Switch
+/*
+var age = 25;
 
+if (age < 20) {
+  console.log('Carol is a teenager');
+} else if (age > 20 && age < 30) {
+  console.log('Carol is a young woman')
+} else {
+  console.log('Carol is a woman');
+}
 
+var job = 'teacher';
 
+job = prompt('What does Caroline do?')
 
+switch (job) {
+  case 'teacher':
+    console.log('Caroline teaches kids.');
+    break;
+  case 'driver':
+    console.log('Caroline drives cabs.');
+    break;
+  case 'singer':
+    console.log('Caroline sings.');
+    break;
+  default: 
+    console.log('Caroline is unemployed.');
+}
+*/
 
+// Lecture: Functions
 
+function calculateAge(yearOfBirth) {
+  var age = 2016 - yearOfBirth;
+  return age;
+}
 
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1969);
+var ageMary = calculateAge(1988);
+console.log(ageMike);
 
 
 
